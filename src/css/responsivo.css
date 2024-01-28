@@ -1,0 +1,86 @@
+/* Resolução < 1024 */
+
+/* Cabeçalho */
+@media (max-width: 1024px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    /* Links dos Menus do Cabeçalho */
+    .cabecalho .menu li a {
+        padding: 15px;
+    }
+
+    /* Informações da Home */
+    .home .informacoes {
+        padding: 30px;
+    }
+
+    /* Tamanho das Imagens das Informações da Home */
+    .home .informacoes img {
+        max-width: 100px;
+    }
+
+    /* Tamanho do Título das Informações da Home */
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    /* Cartão da Seção de Compre Já */
+    .compre-ja .cartao {
+        width: 70%;
+    }
+}
+
+/* Resolução < 768 (Tablets) */
+
+/* Seção Compre Já */
+@media(max-width: 768px) {
+    .compre-ja {
+        padding: 30px;
+    }
+
+    /* Cartão da Seção de Compre Já */
+    .compre-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    /* Título do Cartão da Seção de Compre Já */
+    .compre-ja .informacoes h3 {
+        font-size: 35px;
+    }
+
+    /* Dimensões das Informações da Plataforma */
+    .compre-ja .informacoes .plataformas {
+        flex-direction: column;
+    }
+
+    /* Rescentralizando Botão da Seção de Plataforma do Cartão */
+    .btn-plataforma {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    /* Rescentralizando Botão de Comprar da Seção de Informações da Home */
+    .btn-comprar {
+        width: 100%;
+    }
+}
+
+/* Resolução < 425 (Smartphones) */
+
+/* Sombra de Fundo da Home */
+@media (max-width: 425px) {
+    main::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+
+    /* Rescentralizando a Capa do Jogo da Seção de Compre Já */
+    .compre-ja .cartao .capa-do-jogo {
+        max-width: 80%;
+    }
+}
