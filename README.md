@@ -1,4 +1,4 @@
-# Portfólio LandUp
+# Site Clone STA V
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
